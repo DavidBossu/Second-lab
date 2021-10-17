@@ -1,4 +1,4 @@
-package utm;
+package utm.Task2;
 
 public class Main {
 
