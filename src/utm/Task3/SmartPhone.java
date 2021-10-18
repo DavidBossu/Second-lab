@@ -1,10 +1,10 @@
 package utm.Task3;
 
     class SmartPhone {
-    public String model;
-    public String culoare;
-    public int pret;
-    public double greutate;
+        String model;
+        String culoare;
+        int pret;
+        double greutate;
 
     SmartPhone(String model, String culoare, int pret, double greutate){
         this.model = model;

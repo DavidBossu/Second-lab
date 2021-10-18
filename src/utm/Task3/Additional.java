@@ -11,7 +11,7 @@ public class Additional extends SmartPhone{
     }
 
     public void customPhone(){
-        System.out.println("| Model: " + super.model + "| Culoare: " + super.culoare + "| Pret: "+ super.pret + "| Greutate: " + super.greutate + "| Sticla: " + sticlaProtectoare +"| Husa: " + husa);
+        System.out.println("Model: " + super.model + "| Culoare: " + super.culoare + "| Pret: "+ super.pret + "| Greutate: " + super.greutate + "| Sticla: " + sticlaProtectoare +"| Husa: " + husa);
     }
 }
 
