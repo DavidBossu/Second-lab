@@ -3,10 +3,13 @@ package utm.Task4;
 public class Main{
 
     public static void main(String[] args){
-        Electronics[] arr = new Electronics[] {new SmartPhone(), new SmartNotebook(), new SmartWatch()};
+        Electronics samsung = new SmartPhone("nou", "plastic", "Alb", "Telefon");
+            System.out.println(samsung.toString());
+            
+        Electronics MSI = new SmartNotebook("nou","plastic", "Albastru", "Laptop");
+            System.out.println(MSI.toString());
 
-        for(int i = 0; i<arr.length; i++)
-            arr[i].tell();
-
+        Electronics AppleWatch = new SmartWatch("uzat", "plastic", "Alb");
+             System.out.println(AppleWatch.toString());
     }
 }
