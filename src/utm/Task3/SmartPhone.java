@@ -14,11 +14,12 @@ package utm.Task3;
     }
 
 
+
     int getPret(){
         return pret;
     }
 
-    void tell(){
+    protected void tell(){
         System.out.println(" Model: " + model + "| Pret: " + getPret() + "| Culoare: " + culoare + "| Greutate" + greutate);
     }
 
