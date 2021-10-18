@@ -3,24 +3,28 @@ package utm.Task3;
     class SmartPhone {
         String model;
         String culoare;
-        int pret;
         double greutate;
+        int pret;
 
-    SmartPhone(String model, String culoare, int pret, double greutate){
+    SmartPhone(String model, String culoare, double greutate){
         this.model = model;
         this.culoare = culoare;
-        this.pret = pret;
         this.greutate= greutate;
     }
 
+        void setPret(int pret){
+            this.pret = pret;
+        }
 
+        int getPret(){
+            return pret;
+        }
 
-    int getPret(){
-        return pret;
+        @Override
+        public String toString() {
+            return  "  model='" + model + '\'' +
+                    ", culoare= " + culoare + '\'' +
+                    ", greutate= " + greutate +
+                    ", pret= " + pret;
+        }
     }
-
-    protected void tell(){
-        System.out.println(" Model: " + model + "| Pret: " + getPret() + "| Culoare: " + culoare + "| Greutate" + greutate);
-    }
-
-}

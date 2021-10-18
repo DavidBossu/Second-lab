@@ -1,17 +1,24 @@
 package utm.Task3;
 
 class Additional extends SmartPhone{
-    String sticlaProtectoare;
-    String husa;
+    String sticlaProtectoare = "Are";
+    String husa = "Are";
+    int pret =250;
 
-    protected Additional(String model,String culoare, int pret, double greutate, String sticlaProtectoare, String husa){
-        super(model, culoare, pret, greutate);
-        this.sticlaProtectoare = sticlaProtectoare;
-        this.husa = husa;
+    protected Additional(String model, String culoare, double greutate){
+        super(model, culoare, greutate);
+        this.pret = pret;
     }
 
-    protected void customPhone(){
-        System.out.println("Model: " + super.model + "| Culoare: " + super.culoare + "| Pret: "+ super.pret + "| Greutate: " + super.greutate + "| Sticla: " + sticlaProtectoare +"| Husa: " + husa);
+
+    @Override
+    public String toString() {
+        return  "  model='" + model + '\'' +
+                ", culoare='" + culoare + '\'' +
+                ", pret=" + pret +
+                ", greutate=" + greutate +
+                ", sticlaProtectoare='" + sticlaProtectoare + '\'' +
+                ", husa='" + husa + '\'';
     }
 }
 
