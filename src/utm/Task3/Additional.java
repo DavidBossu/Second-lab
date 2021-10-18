@@ -3,7 +3,7 @@ package utm.Task3;
 class Additional extends SmartPhone{
     String sticlaProtectoare = "Are";
     String husa = "Are";
-    int pret =250;
+    int pret = 250;
 
     protected Additional(String model, String culoare, double greutate){
         super(model, culoare, greutate);
