@@ -4,9 +4,8 @@ public class SmartNotebook extends Electronics{
     String obiect = "Notebook";
     int pret = 1200;
 
-    protected SmartNotebook (String tip, String material, String culoare, String obiect){
+    protected SmartNotebook (String tip, String material, String culoare){
         super(tip, material, culoare);
-        this.obiect = obiect;
     }
 
     @Override
