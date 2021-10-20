@@ -16,7 +16,6 @@ public class Main {
         S8 samsungS8 = new S8("Samsung_S8", "Alb", 0.580, 800, true, "Are");
         samsungS8.setHusa("Nu are");
         samsungS8.getHusa();
-        System.out.println(" ");
         samsungS8.setSticlaProtectoare(false);
         samsungS8.getSticlaProtectoare();
         System.out.println(samsungS8.toString());

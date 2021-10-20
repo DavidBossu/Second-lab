@@ -1,27 +1,27 @@
 package utm.Task3;
 
 class S8 extends SmartPhone{
-    boolean sticlaProtectoare;
-    String husa;
+    private boolean sticlaProtectoare;
+    private String husa;
 
     protected S8(String model, String culoare, double greutate,int pret, boolean sticlaProtectoare, String husa){
         super(model, culoare, greutate, pret);
         this.sticlaProtectoare = sticlaProtectoare;
         this.husa = husa;
     }
-    void setSticlaProtectoare(boolean sticlaProtectoare){
+    public void setSticlaProtectoare(boolean sticlaProtectoare){
         this.sticlaProtectoare = sticlaProtectoare;
     }
 
-    boolean getSticlaProtectoare(){
+    public boolean getSticlaProtectoare(){
         return sticlaProtectoare;
     }
 
-    void setHusa(String husa){
+    public void setHusa(String husa){
         this.husa = husa;
     }
 
-    String getHusa(){
+    public String getHusa(){
         return husa;
     }
 

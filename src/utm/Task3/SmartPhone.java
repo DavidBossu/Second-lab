@@ -1,10 +1,10 @@
 package utm.Task3;
 
     class SmartPhone {
-        String model;
-        String culoare;
-        double greutate;
-        int pret;
+        private String model;
+        private String culoare;
+        private double greutate;
+        protected int pret;
 
     SmartPhone(String model, String culoare, double greutate, int pret){
         this.model = model;
@@ -13,7 +13,7 @@ package utm.Task3;
         this.pret = pret;
     }
 
-        void setPret(int pret){
+        public void setPret(int pret){
             this.pret = pret;
         }
 
