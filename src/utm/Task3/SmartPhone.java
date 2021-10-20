@@ -17,14 +17,14 @@ package utm.Task3;
         }
 
         int getPret(){
-            return pret;
+            System.out.print(", pret= ");
+            return this.pret;
         }
 
         @Override
         public String toString() {
-            return  "  model='" + model + '\'' +
-                    ", culoare= " + culoare + '\'' +
-                    ", greutate= " + greutate +
-                    ", pret= " + pret;
+            return  "  model= " + model +
+                    ", culoare= " + culoare +
+                    ", greutate= " + greutate;
         }
     }
