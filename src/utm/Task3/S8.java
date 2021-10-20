@@ -9,6 +9,7 @@ class S8 extends SmartPhone{
         this.sticlaProtectoare = sticlaProtectoare;
         this.husa = husa;
     }
+
     public void setSticlaProtectoare(boolean sticlaProtectoare){
         this.sticlaProtectoare = sticlaProtectoare;
     }
