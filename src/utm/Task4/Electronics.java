@@ -10,5 +10,4 @@ public class Electronics {
         this.material = material;
         this. culoare = culoare;
     }
-
 }
