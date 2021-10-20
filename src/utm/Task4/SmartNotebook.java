@@ -1,19 +1,19 @@
 package utm.Task4;
 
 public class SmartNotebook extends Electronics{
-    String obiect = "Notebook";
-    int pret = 1200;
+    double diagonala;
 
-    protected SmartNotebook (String tip, String material, String culoare){
-        super(tip, material, culoare);
+    protected SmartNotebook (String tip, String material, String culoare, int pret, double diagonala){
+        super("MSI", material, culoare, pret);
+        this.diagonala = diagonala;
     }
 
     @Override
     public String toString() {
-        return "Obiect='" + obiect + '\'' +
-                " Tip='" + tip + '\'' +
-                ", Material='" + material + '\'' +
-                ", Culoare='" + culoare + '\'' +
-                ", Pret=" + pret;
+        return  " Tip= " + tip + '\'' +
+                ", Material= " + material + '\'' +
+                ", Culoare= " + culoare + '\'' +
+                ", Pret= " + pret +
+                ", Diagonala= " +diagonala;
     }
 }

@@ -3,13 +3,13 @@ package utm.Task4;
 public class Main{
 
     public static void main(String[] args){
-        Electronics samsung = new SmartPhone("nou", "plastic", "Alb");
+        SmartPhone samsung = new SmartPhone("", "plastic", "Alb", 800, true);
             System.out.println(samsung.toString());
             
-        Electronics MSI = new SmartNotebook("nou","plastic", "Albastru");
+        SmartNotebook MSI = new SmartNotebook("nou","plastic", "Albastru", 1200, 15.9);
             System.out.println(MSI.toString());
 
-        Electronics AppleWatch = new SmartWatch("uzat", "plastic", "Alb");
+        SmartWatch AppleWatch = new SmartWatch("uzat", "plastic", "Alb", 600, true);
              System.out.println(AppleWatch.toString());
     }
 }

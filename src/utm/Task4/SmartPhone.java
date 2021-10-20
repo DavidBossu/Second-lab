@@ -1,19 +1,19 @@
 package utm.Task4;
 
 public class SmartPhone extends Electronics{
-    String obiect = "Phone";
-    int pret = 1000;
+    boolean husa;
 
-    protected SmartPhone (String tip, String material, String culoare){
-        super(tip, material, culoare);
+    protected SmartPhone (String tip, String material, String culoare, int pret, boolean husa){
+        super("SamsungS8", material, culoare, pret);
+        this.husa = husa;
     }
 
     @Override
     public String toString() {
-        return "Obiect='" + obiect + '\'' +
-                " Tip='" + tip + '\'' +
-                ", Material='" + material + '\'' +
-                ", Culoare='" + culoare + '\'' +
-                ", Pret=" + pret;
+        return  " Tip= " + tip + '\'' +
+                ", Material= " + material + '\'' +
+                ", Culoare= " + culoare + '\'' +
+                ", Pret= " + pret +
+                ", Husa= " + husa;
     }
 }
