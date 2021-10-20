@@ -6,10 +6,11 @@ package utm.Task3;
         double greutate;
         int pret;
 
-    SmartPhone(String model, String culoare, double greutate){
+    SmartPhone(String model, String culoare, double greutate, int pret){
         this.model = model;
         this.culoare = culoare;
         this.greutate= greutate;
+        this.pret = pret;
     }
 
         void setPret(int pret){
