@@ -13,15 +13,15 @@ package utm.Task2;
         this.greutate= greutate;
     }
 
-    void setPret(int pret){
+    public void setPret(int pret){
         this.pret = pret;
     }
 
-    int getPret(){
+    public int getPret(){
         return pret;
     }
 
-    void tell(){
+    public void tell(){
         System.out.println(" Model: " + model + "| Pret: " + getPret() + "| Culoare: " + culoare + "| Greutate" + greutate);
     }
 }
