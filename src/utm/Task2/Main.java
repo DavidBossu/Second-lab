@@ -10,6 +10,5 @@ public class Main {
         Laptop MSI = new Laptop("MSI", "Blue", 2400, 2);
         MSI.setPret(1400);
         MSI.tell();
-
     }
 }

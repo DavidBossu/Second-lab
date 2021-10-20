@@ -24,9 +24,4 @@ package utm.Task2;
     void tell(){
         System.out.println(" Model: " + model + "| Pret: " + getPret() + "| Culoare: " + culoare + "| Greutate" + greutate);
     }
-
-
 }
-
-
-
